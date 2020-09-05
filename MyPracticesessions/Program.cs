@@ -49,7 +49,10 @@ namespace MyPracticesessions
             Console.WriteLine(phrase.IndexOf("Academy"));
 
             Console.WriteLine(phrase.IndexOf('f'));
+
             Console.WriteLine(phrase.IndexOf('z'));
+
+            Console.WriteLine(phrase.Substring(8));
 
             Console.ReadLine();
         }
