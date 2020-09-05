@@ -58,6 +58,8 @@ namespace MyPracticesessions
 
             Console.WriteLine(4+2*3);
 
+            Console.WriteLine((4 + 2) * 3);
+
             Console.ReadLine();
         }
     }
