@@ -15,7 +15,7 @@ namespace MyPracticesessions
             double gpa = 3.2;
             bool isMale = true;
             int num = 10;
-            num++;
+            num--;
 
             Console.WriteLine("Hello World");
 
