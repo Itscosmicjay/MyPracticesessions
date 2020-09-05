@@ -36,6 +36,8 @@ namespace MyPracticesessions
 
             Console.WriteLine(phrase.Length);
 
+            Console.WriteLine(phrase.ToUpper());
+
             Console.ReadLine();
         }
     }
