@@ -46,6 +46,8 @@ namespace MyPracticesessions
 
             Console.WriteLine(phrase[0]);
 
+            Console.WriteLine(phrase.IndexOf("Academy"));
+
             Console.ReadLine();
         }
     }
