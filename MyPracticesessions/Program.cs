@@ -31,6 +31,9 @@ namespace MyPracticesessions
             Console.WriteLine("But didn't like being " + characterAge);
 
             Console.WriteLine("Giraffe\nAcademy");
+
+            Console.WriteLine(phrase);
+
             Console.ReadLine();
         }
     }
