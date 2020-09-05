@@ -14,6 +14,7 @@ namespace MyPracticesessions
             int age = 30;
             double gpa = 3.2;
             bool isMale = true;
+            int num = 10;
 
             Console.WriteLine("Hello World");
 
@@ -59,6 +60,8 @@ namespace MyPracticesessions
             Console.WriteLine(4+2*3);
 
             Console.WriteLine((4 + 2) * 3);
+
+            Console.WriteLine(num);
 
             Console.ReadLine();
         }
