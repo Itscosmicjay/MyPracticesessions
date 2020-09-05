@@ -9,7 +9,7 @@ namespace MyPracticesessions
             string characterName = "Tom";
             int characterAge;
             characterAge = 25;
-            string phrase = "Girrafe Academy";
+            string phrase = "Girrafe Academy " + "is cool";
             char grade = 'A';
             int age = 30;
             double gpa = 3.2;
