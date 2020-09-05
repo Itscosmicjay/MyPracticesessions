@@ -22,8 +22,6 @@ namespace MyPracticesessions
             Console.WriteLine(" /  |");
             Console.WriteLine("/___|");
 
-            
-
             Console.WriteLine("There once was a man named " + characterName);
             Console.WriteLine("He was "+ characterAge +" years old");
 
@@ -32,6 +30,7 @@ namespace MyPracticesessions
             Console.WriteLine("He loved the name " + characterName);
             Console.WriteLine("But didn't like being " + characterAge);
 
+            Console.WriteLine("Giraffe\nAcademy");
             Console.ReadLine();
         }
     }
