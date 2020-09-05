@@ -54,6 +54,8 @@ namespace MyPracticesessions
 
             Console.WriteLine(phrase.Substring(8));
 
+            Console.WriteLine(phrase.Substring(8, 3));
+
             Console.ReadLine();
         }
     }
