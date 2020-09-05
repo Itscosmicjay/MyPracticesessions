@@ -42,6 +42,9 @@ namespace MyPracticesessions
 
             Console.WriteLine(phrase.Contains("Academy"));
 
+            Console.WriteLine(phrase.Contains("Academies"));
+
+
             Console.ReadLine();
         }
     }
