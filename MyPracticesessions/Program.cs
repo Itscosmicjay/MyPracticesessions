@@ -83,11 +83,11 @@ namespace MyPracticesessions
 
             Console.Write("Enter a number: ");
 
-            int num2 = Convert.ToInt32(Console.ReadLine());
+            double num2 = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Enter another number: ");
 
-            int num3 = Convert.ToInt32(Console.ReadLine());
+            double num3 = Convert.ToDouble(Console.ReadLine());
 
             Console.WriteLine(num2+num3);
 
