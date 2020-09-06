@@ -65,6 +65,11 @@ namespace MyPracticesessions
             Console.WriteLine(num);
 
             Console.WriteLine(Math.Sqrt(9));
+
+            Console.WriteLine(Math.Max(4, 40));
+
+
+
             Console.ReadLine();
         }
     }
