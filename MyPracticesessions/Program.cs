@@ -12,6 +12,7 @@ namespace MyPracticesessions
             string phrase = "Girrafe Academy " + "is cool";
             int num = 10;
             num--;
+            int num1 = Convert.ToInt32("45");
 
             Console.WriteLine("Hello World");
 
@@ -78,7 +79,7 @@ namespace MyPracticesessions
 
             Console.WriteLine("Hello " + name + " you are " + age);
 
-
+            Console.WriteLine(num1 + 6);
 
 
             Console.ReadLine();
