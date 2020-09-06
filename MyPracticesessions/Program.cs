@@ -72,6 +72,10 @@ namespace MyPracticesessions
 
             Console.WriteLine(Math.Round(10.6) );
 
+            Console.Write("Enter your name: ");
+
+            string name= Console.ReadLine();
+
             Console.ReadLine();
         }
     }
