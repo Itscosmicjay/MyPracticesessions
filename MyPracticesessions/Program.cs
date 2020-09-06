@@ -68,7 +68,7 @@ namespace MyPracticesessions
 
             Console.WriteLine(Math.Max(4, 40));
 
-
+            Console.WriteLine(Math.Min(5, 10));
 
             Console.ReadLine();
         }
