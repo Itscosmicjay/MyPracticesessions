@@ -70,6 +70,8 @@ namespace MyPracticesessions
 
             Console.WriteLine(Math.Min(5, 10));
 
+            Console.WriteLine(Math.Round(10.6) );
+
             Console.ReadLine();
         }
     }
