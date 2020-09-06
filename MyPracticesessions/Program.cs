@@ -81,6 +81,17 @@ namespace MyPracticesessions
 
             Console.WriteLine(num1 + 6);
 
+            Console.Write("Enter a number: ");
+
+            int num2 = Convert.ToInt32(Console.ReadLine());
+
+            Console.Write("Enter another number: ");
+
+            int num3 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine(num2+num3);
+
+
 
             Console.ReadLine();
         }
