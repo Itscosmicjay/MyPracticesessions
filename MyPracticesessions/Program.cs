@@ -10,10 +10,6 @@ namespace MyPracticesessions
             int characterAge;
             characterAge = 25;
             string phrase = "Girrafe Academy " + "is cool";
-            char grade = 'A';
-            int age = 30;
-            double gpa = 3.2;
-            bool isMale = true;
             int num = 10;
             num--;
 
@@ -25,7 +21,7 @@ namespace MyPracticesessions
             Console.WriteLine("/___|");
 
             Console.WriteLine("There once was a man named " + characterName);
-            Console.WriteLine("He was "+ characterAge +" years old");
+            Console.WriteLine("He was " + characterAge + " years old");
 
             characterName = "Mike";
 
@@ -58,7 +54,7 @@ namespace MyPracticesessions
 
             Console.WriteLine(phrase.Substring(8, 3));
 
-            Console.WriteLine(4+2*3);
+            Console.WriteLine(4 + 2 * 3);
 
             Console.WriteLine((4 + 2) * 3);
 
@@ -70,13 +66,18 @@ namespace MyPracticesessions
 
             Console.WriteLine(Math.Min(5, 10));
 
-            Console.WriteLine(Math.Round(10.6) );
+            Console.WriteLine(Math.Round(10.6));
 
             Console.Write("Enter your name: ");
 
-            string name= Console.ReadLine();
+            string name = Console.ReadLine();
 
-            Console.WriteLine("Hello " + name);
+            Console.Write("Enter your age: ");
+
+            string age = Console.ReadLine();
+
+            Console.WriteLine("Hello " + name + " you are " + age);
+
 
 
 
