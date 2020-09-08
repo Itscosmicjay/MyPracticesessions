@@ -126,6 +126,12 @@ namespace MyPracticesessions
 
             Console.WriteLine(cube(5));
 
+            bool isMale = true;
+            if (isMale)
+            {
+                Console.WriteLine("You are male");
+            }
+
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
