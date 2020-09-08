@@ -112,6 +112,8 @@ namespace MyPracticesessions
 
             Console.WriteLine(luckyNumbers[0]);
 
+            luckyNumbers[1] = 900;
+
             Console.ReadLine();
         }
     }
