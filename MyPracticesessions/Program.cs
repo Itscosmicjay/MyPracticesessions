@@ -125,6 +125,6 @@ namespace MyPracticesessions
     }
     static void SayHi()
     {
-        Console.WriteLine("Hello user");
+        Console.WriteLine("Hello User");
     }
 }
