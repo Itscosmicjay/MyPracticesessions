@@ -126,13 +126,14 @@ namespace MyPracticesessions
 
             Console.WriteLine(cube(5));
 
-            bool isMale = false;
-            if (isMale)
+            bool isMale = true;
+            bool isTall = true;
+            if (isMale && isTall)
             {
-                Console.WriteLine("You are male");
+                Console.WriteLine("You are a tall male");
             }else
             {
-                Console.WriteLine("You are not male");
+                Console.WriteLine("You are either not male or not tall or not both");
             }
 
             Console.ReadLine();
