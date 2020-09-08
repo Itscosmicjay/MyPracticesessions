@@ -128,7 +128,7 @@ namespace MyPracticesessions
 
             bool isMale = true;
             bool isTall = true;
-            if (isMale && isTall)
+            if (isMale || isTall)
             {
                 Console.WriteLine("You are a tall male");
             }else
