@@ -110,9 +110,9 @@ namespace MyPracticesessions
 
             int [] luckyNumbers = { 4, 8, 15, 16, 23, 42};
 
-            Console.WriteLine(luckyNumbers[0]);
-
             luckyNumbers[1] = 900;
+
+            Console.WriteLine(luckyNumbers[1]);
 
             Console.ReadLine();
         }
