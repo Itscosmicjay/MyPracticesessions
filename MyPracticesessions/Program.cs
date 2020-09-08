@@ -120,15 +120,15 @@ namespace MyPracticesessions
 
             Console.WriteLine(luckyNumbers[1]);
 
-            SayHi("Mike");
-            SayHi("John");
-            SayHi("Tom");
+            SayHi("Mike", 23);
+            SayHi("John", 21);
+            SayHi("Tom", 56);
 
             Console.ReadLine();
         }
-        static void SayHi(string name)
+        static void SayHi(string name, int age)
         {
-            Console.WriteLine("Hello " + name);
+            Console.WriteLine("Hello " + name + " you are " + age);
         }
     }
   
