@@ -120,11 +120,15 @@ namespace MyPracticesessions
 
             Console.WriteLine(luckyNumbers[1]);
 
+            SayHi(); 
+
+
             Console.ReadLine();
         }
+        static void SayHi()
+        {
+            Console.WriteLine("Hello User");
+        }
     }
-    static void SayHi()
-    {
-        Console.WriteLine("Hello User");
-    }
+  
 }
