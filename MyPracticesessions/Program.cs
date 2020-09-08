@@ -128,14 +128,19 @@ namespace MyPracticesessions
 
             bool isMale = true;
             bool isTall = true;
-            if (isMale || isTall)
+            if (isMale && isTall)
             {
                 Console.WriteLine("You are a tall male");
-            } else if (isMale &&!isTall) {
-                Console.WriteLine("You are a short male");
-            } else
+            }
+            else if (isMale && !isTall)
             {
-                Console.WriteLine("You are either not male or not tall or not both");
+                Console.WriteLine("You are a short male");
+            }
+            else if (!isMale && isTall) {
+                Console.WriteLine("You are not a male but you are tall");
+            }else
+            {
+                Console.WriteLine("You are not male and not tall");
             }
 
             Console.ReadLine();
