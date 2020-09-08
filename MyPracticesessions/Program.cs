@@ -124,11 +124,18 @@ namespace MyPracticesessions
             SayHi("John", 21);
             SayHi("Tom", 56);
 
+            Console.WriteLine(cube(5));
+
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
         {
             Console.WriteLine("Hello " + name + " you are " + age);
+        }
+        static int cube(int num)
+        {
+            int result = num * num * num;
+            return result;
         }
     }
   
