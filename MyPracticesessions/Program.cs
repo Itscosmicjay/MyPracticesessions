@@ -126,7 +126,7 @@ namespace MyPracticesessions
 
             Console.WriteLine(cube(5));
 
-            bool isMale = true;
+            bool isMale = false;
             if (isMale)
             {
                 Console.WriteLine("You are male");
