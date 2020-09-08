@@ -109,7 +109,12 @@ namespace MyPracticesessions
             Console.WriteLine("I love " + celebrity);
 
             int [] luckyNumbers = { 4, 8, 15, 16, 23, 42};
-            string[] friends = new string[];
+            string[] friends = new string[5];
+            friends[0] = "Jim";
+            friends[1] = "Henry";
+            friends[2] = "Shem";
+            friends[3] = "Han";
+            friends[4] = "Smith";
 
             luckyNumbers[1] = 900;
 
