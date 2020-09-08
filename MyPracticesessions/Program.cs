@@ -130,6 +130,9 @@ namespace MyPracticesessions
             if (isMale)
             {
                 Console.WriteLine("You are male");
+            }else
+            {
+                Console.WriteLine("You are not male");
             }
 
             Console.ReadLine();
