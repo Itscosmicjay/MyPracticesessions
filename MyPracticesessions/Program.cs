@@ -142,7 +142,7 @@ namespace MyPracticesessions
             {
                 Console.WriteLine("You are not male and not tall");
             }
-
+            Console.WriteLine(Getmax(2,10));
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
@@ -152,6 +152,18 @@ namespace MyPracticesessions
         static int cube(int num)
         {
             int result = num * num * num;
+            return result;
+        }
+        static int Getmax(int num1, int num2)
+        {
+            int result;
+            if (num1>num2)
+            {
+                result = num1;
+            }
+            else {
+                result = num2;
+            }
             return result;
         }
     }
