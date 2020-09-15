@@ -143,6 +143,8 @@ namespace MyPracticesessions
                 Console.WriteLine("You are not male and not tall");
             }
             Console.WriteLine(Getmax(2,10));
+            Console.WriteLine(Getmax1(2, 10,8));
+
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
@@ -163,6 +165,23 @@ namespace MyPracticesessions
             }
             else {
                 result = num2;
+            }
+            return result;
+        }
+        static int Getmax1(int num1, int num2, int num3)
+        {
+            int result;
+            if (num1>=num2 && num1>=num3)
+            {
+                result = num1;
+            }
+            else  if(num2>=num1 && num2>=num3)
+            {
+                result = num2;
+            }
+            else
+            {
+                result = num3;
             }
             return result;
         }
