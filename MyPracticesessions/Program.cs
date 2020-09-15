@@ -145,6 +145,35 @@ namespace MyPracticesessions
             Console.WriteLine(Getmax(2,10));
             Console.WriteLine(Getmax1(2, 10,8));
 
+            Console.Write("Enter a number:");
+            double digit1 = Convert.ToDouble(Console.ReadLine());
+
+            Console.Write("Enter an operator:");
+            string op = Console.ReadLine();
+
+            Console.Write("Enter another number:");
+            double digit2 = Convert.ToDouble(Console.ReadLine());
+
+            if(op=="+")
+            {
+                Console.WriteLine(digit1 + digit2);
+            }else if (op=="-")
+            {
+                Console.WriteLine(digit1 - digit2);
+            }
+            else if (op == "*")
+            {
+                Console.WriteLine(digit1 * digit2);
+            }
+            else if (op == "/")
+            {
+                Console.WriteLine(digit1 / digit2);
+            }
+            else
+            {
+                Console.WriteLine("Invalid Operator");
+            }
+
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
@@ -184,6 +213,7 @@ namespace MyPracticesessions
                 result = num3;
             }
             return result;
+
         }
     }
   
