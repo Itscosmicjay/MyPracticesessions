@@ -177,6 +177,13 @@ namespace MyPracticesessions
 
             Console.WriteLine(GetDay(0));
 
+            int index = 1;
+            while (index<=5)
+            {
+                Console.WriteLine(index);
+                index;
+            }
+
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
