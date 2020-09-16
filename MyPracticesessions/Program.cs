@@ -192,12 +192,33 @@ namespace MyPracticesessions
 
             string secretWord = "girrafe";
             string guess = "";
-            while (guess != secretWord)
+            int guessCount = 0;
+            int guessLimit = 3;
+            bool outofGuesses = false;
+
+            while (guess != secretWord && !outofGuesses)
             {
-                Console.Write("Enter guess:");
-                guess = Console.ReadLine();
+                if (guessCount<guessLimit)
+                {
+                    Console.Write("Enter guess:");
+                    guess = Console.ReadLine();
+                    guessCount++;
+                }
+                else
+                {
+                    outofGuesses = true;
+                }
+                if (outofGuesses)
+                {
+                    Console.WriteLine("You Lose!");
+                }
+                else
+                {
+                    Console.WriteLine("You Win!");
+                }
+
+                
             }
-            Console.WriteLine("You Win!");
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
