@@ -181,7 +181,14 @@ namespace MyPracticesessions
             while (index<=5)
             {
                 Console.WriteLine(index);
-                index;
+                index++;
+            }
+            int index1 = 6;
+           do
+            {
+                Console.WriteLine(index1);
+                index++;
+                while (index1 <= 5) ;
             }
 
             Console.ReadLine();
