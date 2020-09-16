@@ -184,13 +184,20 @@ namespace MyPracticesessions
                 index++;
             }
             int index1 = 6;
-           do
+            do
             {
                 Console.WriteLine(index1);
                 index++;
-                while (index1 <= 5) ;
-            }
+            } while (index1 <= 5);
 
+            string secretWord = "girrafe";
+            string guess = "";
+            while (guess != secretWord)
+            {
+                Console.Write("Enter guess:");
+                guess = Console.ReadLine();
+            }
+            Console.WriteLine("You Win!");
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
