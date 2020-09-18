@@ -221,7 +221,8 @@ namespace MyPracticesessions
                 {
                     Console.WriteLine(luckyNumbers1[i]);
                 }
-                
+
+                Console.WriteLine(Getpow(3, 2));
             }
             Console.ReadLine();
         }
@@ -298,6 +299,15 @@ namespace MyPracticesessions
                     break;
             }
             return dayName;
+        }
+        static int Getpow(int baseNum, int powNum)
+        {
+            int result = 1;
+            for (int i=0; i<powNum; i++)
+            {
+                result = result * baseNum;
+            }
+            return result;
         }
 
     }
