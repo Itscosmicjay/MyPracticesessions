@@ -223,6 +223,11 @@ namespace MyPracticesessions
                 }
 
                 Console.WriteLine(Getpow(3, 2));
+                int[,] numberGrid = {
+                    {1,2 },
+                    {3,4 },
+                    {5,6 },
+                };
             }
             Console.ReadLine();
         }
