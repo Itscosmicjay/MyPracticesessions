@@ -228,6 +228,8 @@ namespace MyPracticesessions
                     {3,4 },
                     {5,6 },
                 };
+                int[,] myArray = newint[2, 3];
+
                 Console.WriteLine(numberGrid[0, 0]);
             }
             Console.ReadLine();
