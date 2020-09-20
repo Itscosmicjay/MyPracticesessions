@@ -242,6 +242,10 @@ namespace MyPracticesessions
             {
                 Console.WriteLine(e.Message);
             }
+            catch (FormatException e)
+            {
+                Console.WriteLine(e.Message);
+            }
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
