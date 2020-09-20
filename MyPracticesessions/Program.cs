@@ -231,6 +231,8 @@ namespace MyPracticesessions
                 int[,] myArray = newint[2, 3];
 
                 Console.WriteLine(numberGrid[0, 0]);
+
+                //Console.WriteLine("Comment added");
             }
             Console.ReadLine();
         }
