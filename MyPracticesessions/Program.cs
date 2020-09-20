@@ -246,6 +246,10 @@ namespace MyPracticesessions
             {
                 Console.WriteLine(e.Message);
             }
+            finally
+            {
+
+            }
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
