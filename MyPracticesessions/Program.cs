@@ -238,7 +238,7 @@ namespace MyPracticesessions
             {
 
             }
-            catch(Exception e)
+            catch(DivideByZeroException e)
             {
                 Console.WriteLine(e.Message);
             }
