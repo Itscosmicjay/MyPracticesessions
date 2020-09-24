@@ -14,12 +14,21 @@ namespace MyPracticesessions
         {
             title = aTitle;
             director = aDirector;
-            rating = aRating;
+            Rating = aRating;
         }
         public string Rating
         {
-            get {  }
-            set { }
+            get { return rating;  }
+            set{
+                if(value=="G"|| value=="PG"|| value == "R" || value == "PG-13")
+                {
+                    rating = value;
+                }
+                else
+                {
+                    rating = "NR";
+                }
+            }
         }
 
     }

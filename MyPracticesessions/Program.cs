@@ -263,7 +263,8 @@ namespace MyPracticesessions
 
             Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
             Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
-            Console.WriteLine(avengers.rating);
+            Console.WriteLine(avengers.Rating);
+
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
