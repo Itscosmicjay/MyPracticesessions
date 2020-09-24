@@ -9,9 +9,11 @@ namespace MyPracticesessions
         public string title;
         public string author;
         public int pages;
-        public MY_CLASS(string name)
+        public MY_CLASS(string aTitle, string aAuthor, int aPages)
         {
-            Console.WriteLine(name);
+            title = aTitle;
+            author = aAuthor;
+            pages = aPages;
         }
     }
 }

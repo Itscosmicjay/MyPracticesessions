@@ -249,16 +249,16 @@ namespace MyPracticesessions
             {
 
             }
-            MY_CLASS book1 = new MY_CLASS("Mike");
-            book1.title = "Harry Potter";
-            book1.author = "JK Rowling";
-            book1.pages = 400;
-
-            MY_CLASS book2 = new MY_CLASS("John");
-            book2.title = "Lord of the Rings";
-            book2.author = "Tolkein";
-            book2.pages = 700;
+            MY_CLASS book1 = new MY_CLASS("Harry Potter","JK Rowling", 400);
+      
+            MY_CLASS book2 = new MY_CLASS("Lord of the Rings","Tolkein", 700);
+           
             Console.WriteLine(book1.author);
+            Student student1 = new Student("Jim", "Business",2.8 );
+            Student student2 = new Student("Pam", "Art", 3.6);
+
+            Console.WriteLine(student1.HasHonors());
+            Console.WriteLine(student2.HasHonors());
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
