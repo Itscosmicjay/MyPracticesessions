@@ -254,11 +254,16 @@ namespace MyPracticesessions
             MY_CLASS book2 = new MY_CLASS("Lord of the Rings","Tolkein", 700);
            
             Console.WriteLine(book1.author);
+
             Student student1 = new Student("Jim", "Business",2.8 );
             Student student2 = new Student("Pam", "Art", 3.6);
 
             Console.WriteLine(student1.HasHonors());
             Console.WriteLine(student2.HasHonors());
+
+            Movie avengers = new Movie("The Avengers", "Joss Whedon", "PG-13");
+            Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
+            Console.WriteLine(avengers.rating);
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
