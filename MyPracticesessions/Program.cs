@@ -195,7 +195,6 @@ namespace MyPracticesessions
             int guessCount = 0;
             int guessLimit = 3;
             bool outofGuesses = false;
-
             while (guess != secretWord && !outofGuesses)
             {
                 if (guessCount<guessLimit)
@@ -250,7 +249,8 @@ namespace MyPracticesessions
             {
 
             }
-
+            MY_CLASS book1 = new MY_CLASS();
+            book1.title = "Harry Potter";
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
