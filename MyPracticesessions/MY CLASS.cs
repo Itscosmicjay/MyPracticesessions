@@ -9,5 +9,9 @@ namespace MyPracticesessions
         public string title;
         public string author;
         public int pages;
+        public MY_CLASS()
+        {
+
+        }
     }
 }
