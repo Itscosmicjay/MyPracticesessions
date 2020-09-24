@@ -265,6 +265,11 @@ namespace MyPracticesessions
             Movie shrek = new Movie("Shrek", "Adam Adamson", "PG");
             Console.WriteLine(avengers.Rating);
 
+            Song holiday = new Song("Holiday", "Green Day", 200);
+            Console.WriteLine(Song.songCount);
+            Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
+            Console.WriteLine(Song.songCount);
+
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
