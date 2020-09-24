@@ -270,6 +270,8 @@ namespace MyPracticesessions
             Song kashmir = new Song("Kashmir", "Led Zeppelin", 150);
             Console.WriteLine(Song.songCount);
 
+            UsefulTools.SayHi("Mike");
+
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
