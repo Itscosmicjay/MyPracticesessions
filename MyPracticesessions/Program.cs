@@ -249,12 +249,12 @@ namespace MyPracticesessions
             {
 
             }
-            MY_CLASS book1 = new MY_CLASS();
+            MY_CLASS book1 = new MY_CLASS("Mike");
             book1.title = "Harry Potter";
             book1.author = "JK Rowling";
             book1.pages = 400;
 
-            MY_CLASS book2 = new MY_CLASS();
+            MY_CLASS book2 = new MY_CLASS("John");
             book2.title = "Lord of the Rings";
             book2.author = "Tolkein";
             book2.pages = 700;
