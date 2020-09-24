@@ -272,6 +272,12 @@ namespace MyPracticesessions
 
             UsefulTools.SayHi("Mike");
 
+            Chef chef = new Chef();
+            chef.MakeChicken();
+
+            ItalianChef italianchef = new ItalianChef();
+            italianchef.MakeChicken();
+
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
