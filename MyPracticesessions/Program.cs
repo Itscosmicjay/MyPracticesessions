@@ -251,6 +251,9 @@ namespace MyPracticesessions
             }
             MY_CLASS book1 = new MY_CLASS();
             book1.title = "Harry Potter";
+            book1.author = "JK Rowling";
+            book1 = 400;
+            Console.WriteLine(book1.author);
             Console.ReadLine();
         }
         static void SayHi(string name, int age)
