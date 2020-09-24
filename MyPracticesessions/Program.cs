@@ -273,10 +273,10 @@ namespace MyPracticesessions
             UsefulTools.SayHi("Mike");
 
             Chef chef = new Chef();
-            chef.MakeChicken();
+            chef.MakeSpecialDish();
 
             ItalianChef italianchef = new ItalianChef();
-            italianchef.MakeChicken();
+            italianchef.MakeSpecialDish();
 
             Console.ReadLine();
         }
